@@ -9,7 +9,7 @@ namespace CommandDesignPattern
         {
             var light = new Light();
             //One interface to andle all, it means one remote can handle all.
-            //Extensible ,align to S and O of solid principal.
+            //Extensible ,align to S and O of solid principle.
             ICommand switchOnCommand = new LightsOn(light);
             switchOnCommand.Execute();
             ICommand dimUp = new LightsDimUp(light);
