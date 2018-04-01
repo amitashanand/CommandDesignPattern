@@ -35,7 +35,6 @@ namespace CommandDesignPattern
             remoteButtonSpeedUp.Back();
             remoteButtonSpeedUp.Back();
             remoteButtonSpeedUp.Back();
-            remoteButtonSpeedUp.Back();
             remoteButton.Back();
         }
     }
